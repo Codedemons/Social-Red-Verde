@@ -1542,19 +1542,21 @@ transition: all 0.3s ease-in;
      border-radius: 20px;
 }
  ul.Menu_footer li{
-
+     list-style-image: url('../icon/Redes_Sociales/facebook.png');    
      display: block;
-     color: #3e7f21;
+     color: #7d8b76;
 
 }
 
- 
+ ul.Menu_footer img{
+    height: 20px;
+    width: 20px;
+}
 
  ul.Menu_footer li a {
      display: block;
      color: #fcfbfb;
-     font-size: 17px;
-   
+     font-size: 17px;   
     
 }
  ul.Menu_footer li a:hover{
