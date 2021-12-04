@@ -49,7 +49,7 @@
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="../index.html"><img src="../images/Logo_Verde.png" alt="#" /></a>
+                    <a href="../index.php"><img src="../images/Logo_Verde.png" alt="#" /></a>
                   </div>
                 </div>
               </div>
@@ -59,11 +59,11 @@
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
-                      <li> <a href="../index.html">Inicio</a> </li>
-                      <li> <a href="../Menu/Retos.html">Retos</a> </li>
-                      <li > <a href="../Menu/Mapas.html">Mapas</a> </li>
-                      <li class="active"> <a href="../Menu/Instituciones.html">Instituciones</a> </li>
-                      <li> <a href="../Menu/Comunidad.html">Comunidad</a> </li>                     
+                      <li> <a href="../index.php">Inicio</a> </li>
+                      <li> <a href="../Menu/Retos.php">Retos</a> </li>
+                      <li > <a href="../Menu/Mapas.php">Mapas</a> </li>
+                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>
+                      <li> <a href="../Menu/Comunidad.php">Comunidad</a> </li>                     
                      <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>

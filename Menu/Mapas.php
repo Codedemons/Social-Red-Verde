@@ -49,21 +49,22 @@
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="../index.html"><img src="../images/Logo_Verde.png" alt="#" /></a>
+                    <a href="../index.php"><img src="../images/Logo_Verde.png" alt="#" /></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">         
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+         
                <div class="menu-area">
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
-                      <li> <a href="../index.html">Inicio</a> </li>
-                      <li> <a href="../Menu/Retos.html">Retos</a> </li>
-                      <li > <a href="../Menu/Mapas.html">Mapas</a> </li>
-                      <li > <a href="../Menu/Instituciones.html">Instituciones</a> </li>
-                      <li class="active"> <a href="../Menu/Comunidad.html">Comunidad</a> </li>                     
+                      <li> <a href="../index.php">Inicio</a> </li>
+                      <li> <a href="../Menu/Retos.php">Retos</a> </li>
+                      <li class="active"> <a href="../Menu/Mapas.php">Mapas</a> </li>
+                      <li> <a href="../Menu/Instituciones.php">Instituciones</a> </li>
+                      <li> <a href="../Menu/Comunidad.php">Comunidad</a> </li>                     
                      <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>
@@ -79,25 +80,27 @@
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">          
-          <li data-target="#myCarousel" data-slide-to="1"></li>          
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
+
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
                 <div class="row">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="text-bg">
-                     <span>Instituciones que cuidan el                         
-                     </span>
-                      <h1>Medioambiente</h1>                      
-                      <p>Las organizaciones ambientales o ecológicas son organizaciones que buscan investigar, monitorear o proteger el medio ambiente del abuso o la degradación que implica el comportamiento humano.</p>
+                     <span>Carmen Verde</span>
+                      <h1>Medioambiente</h1>
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
                       <form class="Vegetable">
-                          <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
-                          <button class="Search_btn">Buscar</button>
-                      </form>
-                      <a href="#">Contactos</a> <a href="#">Mas Informacion</a>
+                <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
+                <button class="Search_btn">Buscar</button>
+              </form>
+                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -108,7 +111,64 @@
                 </div>
               </div>
             </div>
-          </div>          
+          </div>
+          <div class="carousel-item">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
+
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="text-bg">
+                      <span>Welcome To Shree</span>
+                      <h1>Vegetables Shop</h1>
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                      <form class="Vegetable">
+                <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
+                <button class="Search_btn">Search</button>
+              </form>
+                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="../images/img2.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="carousel-item">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption ">
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="text-bg">
+                      <span>Welcome To Shree</span>
+                      <h1>Vegetables Shop</h1>
+                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                       <form class="Vegetable">
+                <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
+                <button class="Search_btn">Search</button>
+              </form>
+                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="../images/img2.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -125,6 +185,64 @@
 </section>
 </div>
 </header>
+
+
+
+
+
+
+
+<!-- contact -->
+<div id="contact" class="contact">
+  <div class="container">
+   <div class="row">
+     <div class="col-md-12">
+                <div class="titlepage">
+                  <h2>Comunicate  <strong class="llow">Aqui</strong></h2>
+                </div>
+   </div>
+
+</div>
+    <div class="white_color">
+      <div class="row">
+
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+           <form class="contact_bg">
+            <div class="row">
+              <div class="col-md-12">
+              
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Nombre" type="text" name="Your Name">
+                </div>
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Correo" type="text" name="Email">
+                </div>
+                <div class="col-md-12">
+                  <input class="contactus" placeholder="Numero Telefonico" type="text" name="Phone Number">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="textarea" placeholder="Mensaje" type="text" name="Message"></textarea>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <button class="send">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+            </div>
+      
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+<div id="map">
+          </div>
+           </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+</div>
+    <!-- end contact -->
 
     <!--  footer -->
     <footr>
@@ -161,6 +279,8 @@
                           </ul>
                         </div>
                       </div>
+                     
+
                       <div class="col-lg-4 col-md-6 col-sm-6 ">
                         <div class="address">
                           <h3>Mas Informacion</h3>
@@ -172,7 +292,9 @@
                       </div>
                     </div>
                   </div>
+
                 </div>
+
               </div>
               <div class="copyright">
                 <div class="container">
@@ -192,6 +314,8 @@
           <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
           <script src="../js/custom.js"></script>
           <script src="../https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
           <script>
 // This example adds a marker to indicate the position of Bondi Beach in Sydney,
 // Australia.
