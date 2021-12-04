@@ -65,6 +65,7 @@
                       <li> <a href="Menu/Mapas.php">Mapas</a> </li>
                       <li> <a href="Menu/Instituciones.php">Instituciones</a> </li>
                       <li> <a href="Menu/Comunidad.php">Comunidad</a> </li>                     
+                      <li>  <a href="Menu/Login.php">Ingresar</a> </li> 
                      <li> <a href="#Menu"><img src="icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>
