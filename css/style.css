@@ -1141,7 +1141,7 @@ text-align: left;
 float: right;
 width: 100%;
 max-width: 539px;
-padding: 40px 0;
+padding: 30px 0;
     
 }
 
@@ -1152,10 +1152,10 @@ padding: 40px 0;
      content: "";
      background: url(../images/crros.png);
      height: 244px;
-width: 187px;
-bottom: 0;
-left: 0;
-background-repeat: no-repeat;
+    width: 187px;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
 }
  .about .about-box h2 {
 
@@ -1177,17 +1177,17 @@ background-repeat: no-repeat;
 }
 
  .about .about-box a {
-     font-size: 16px;
-border: #070905 solid 1px;
-background-color: #070905;
-color: #fff;
-padding: 9px 0px;
-max-width: 171px;
-width: 100%;
-display: inline-block;
-text-align: center;
-text-transform: uppercase;
-border-radius: 30px;
+    font-size: 16px;
+    border: #070905 solid 1px;
+    background-color: #070905;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
  }
 
 
@@ -1201,6 +1201,7 @@ border-radius: 30px;
 }
  .about .about-box_img figure img {
     width: 100%;
+    
 }
 .padding_rl {padding: 0;}
 /** end about section **/
