@@ -80,12 +80,7 @@
 
      <!-- end header -->
      <section class="slider_section">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">        
         <div class="carousel-inner">
           <div class="carousel-item active">
 
@@ -112,64 +107,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption">
-
-                <div class="row">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="text-bg">
-                      <span>Welcome To Shree</span>
-                      <h1>Vegetables Shop</h1>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
-                      <form class="Vegetable">
-                <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
-                <button class="Search_btn">Search</button>
-              </form>
-                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
-                    </div>
-                  </div>
-
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="carousel-item">
-
-            <div class="container-fluid padding_dd">
-              <div class="carousel-caption ">
-                <div class="row">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="text-bg">
-                      <span>Welcome To Shree</span>
-                      <h1>Vegetables Shop</h1>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
-                       <form class="Vegetable">
-                <input class="Vegetable_fom" placeholder="Vegetable" type="text" name=" Vegetable">
-                <button class="Search_btn">Search</button>
-              </form>
-                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="images_box">
-                      <figure><img src="images/img2.png"></figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>          
         </div>
       </div>
     </div>

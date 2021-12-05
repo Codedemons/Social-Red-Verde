@@ -79,10 +79,7 @@
 
      <!-- end header -->
      <section class="slider_section">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">          
-          <li data-target="#myCarousel" data-slide-to="1"></li>          
-        </ol>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid padding_dd">
