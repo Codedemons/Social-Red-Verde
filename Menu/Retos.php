@@ -79,27 +79,26 @@
 
      <!-- end header -->
      <section class="slider_section">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">        
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
                 <div class="row">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="text-bg">
-                     <span>Carmen Verde</span>
-                      <h1>Medioambiente</h1>
-                      <p>
-                        Es una propuesta de proyeco en la cual se interactua un sitio tipo bloc en el cial se da a conocer
-                        a los usuarios las acciones que realizan personas individuales y organizacion al 
-                        cuidado y proteccion del medion ambiente
-                      </p>
+                    <div class="text-bg">
+                     <span>Instituciones que cuidan el                         
+                     </span>
+                      <h1>Medioambiente</h1>                      
+                      <p>Las organizaciones ambientales o ecológicas son organizaciones que buscan investigar, monitorear o proteger el medio ambiente del abuso o la degradación que implica el comportamiento humano.</p>
                       <form class="Vegetable">
-                      <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
-                      <button class="Search_btn">Buscar</button>
+                          <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
+                          <button class="Search_btn">Buscar</button>
                       </form>
-                      <a href="#">Conctatos</a> <a href="index.php">Mas Informacion</a>
+                      <a href="#">Contactos</a> <a href="#">Mas Informacion</a>
                     </div>
+                  </div>                  
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="images_box">
                       <figure><img src="../images/img2.png"></figure>

@@ -23,6 +23,14 @@
   <link rel="stylesheet" href="../css/responsive.css">  
   <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="../css/mediumish.css" rel="stylesheet">
   <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -126,6 +134,60 @@
 </section>
 </div>
 </header>
+
+<div class="container">
+	<!-- End Site Title
+	================================================== -->
+
+	<!-- Begin Featured
+	================================================== -->
+	<section class="featured-posts">
+	<div class="section-title">
+		<h2><span>Publicaciones</span></h2>
+	</div>
+
+	<div class="card-columns listfeaturedtag">
+
+		
+		<!-- begin post -->
+		<div class="card">
+			<div class="row">
+				<div class="col-md-5 wrapthumbnail">
+					<a href="#">
+						<div class="thumbnail" style="background-image:url(../assets/img/demopic/4.jpg);">
+						</div>
+					</a>
+				</div>
+				<div class="col-md-7">
+					<div class="card-block">
+            
+						<h2 class="card-title">San Francisco at its best view in all seasons</a></h2>
+						<h4 class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
+						<div class="metafooter">
+							<div class="wrapfooter">                
+								<span class="meta-footer-thumb">
+								<a href="Login.php"><img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+								</span>
+								<span class="author-meta">
+								<span class="post-name"><a href="Login.php">Sal</a></span><br/>
+								<span class="post-date">22 July 2017</span><span class="dot"></span><span class="post-read">6 min read</span>
+								</span>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+		<!-- end post -->
+
+    
+	</div>
+	</section>
+</div>
+
+</div>
+</section>
 
     <!--  footer -->
     <footr>
