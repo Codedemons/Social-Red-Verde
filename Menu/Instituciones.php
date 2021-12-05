@@ -95,7 +95,7 @@
                           <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
                           <button class="Search_btn">Buscar</button>
                       </form>
-                      <a href="#">Contactos</a> <a href="#">Mas Informacion</a>
+                      <a href="#">Contactos</a> <a href="https://www.gob.mx/conagua/acciones-y-programas/instituciones-que-colaboran-en-el-inh">Mas Informacion</a>
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">

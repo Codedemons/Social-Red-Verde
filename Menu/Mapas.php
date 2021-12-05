@@ -88,15 +88,19 @@
               <div class="carousel-caption">
                 <div class="row">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div class="text-bg">
+                  <div class="text-bg">
                      <span>Carmen Verde</span>
                       <h1>Medioambiente</h1>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                      <p>
+                        Es una propuesta de proyeco en la cual se interactua un sitio tipo bloc en el cial se da a conocer
+                        a los usuarios las acciones que realizan personas individuales y organizacion al 
+                        cuidado y proteccion del medion ambiente
+                      </p>
                       <form class="Vegetable">
-                <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
-                <button class="Search_btn">Buscar</button>
-                </form>
-                      <a href="#">Contact Us</a> <a href="#">Vegetable</a>
+                      <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
+                      <button class="Search_btn">Buscar</button>
+                      </form>
+                      <a href="#">Conctatos</a> <a href="index.php">Mas Informacion</a>
                     </div>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
