@@ -46,8 +46,6 @@ if(Session::exists("user_id")){
         <?php endif; ?>        
       </ul>
 <!--  ediciones  -->
-
-<header>
     <!-- header inner -->
     <div class="header-top">
       <div class="header">
@@ -85,7 +83,6 @@ if(Session::exists("user_id")){
      </div>
      <!-- end header inner -->
     </div>
-  </header>
 
 
 <!--  ediciones  -->
@@ -209,8 +206,6 @@ $nnots = NotificationData::countUnReads($_SESSION["user_id"]);
     </div>
   </div>
 <br>
-
-  
     <!--  footer -->
     <footr>
       <div class="footer ">
