@@ -1,9 +1,23 @@
+
+<link rel="stylesheet" href="../css/style.css">
+<!-- bootstrap css -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+ <!-- style css -->
+<link rel="stylesheet" href="../css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="../css/responsive.css">  
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
 <div class="container">
 <div class="row">
 <div class="col-md-8">
-<h2>SMILE - Red Social</h2>
+<h2> Carmen Verde</h2>
 <p>SMILE es un sistema de red social de proposito general, codigo abierto y gratis.</p>
-<img src="res/main.png">
+<img src="../images/img2.png">
 <h3>Descripcion</h3>
 <p>SMILE es un sistema de red social en el que puedes rellenar tu perfil, hacer publicaciones de texto y/o imagenes, buscar amigos, enviar, recibir y aceptar solicitudes de amistad, enviar mensajes a amigos, comentar y/o dar likes a las publicaciones, recibir notificaciones y mucho mas.</p>
 
