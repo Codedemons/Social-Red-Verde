@@ -101,11 +101,7 @@
                         Es una propuesta de proyeco en la cual se interactua un sitio tipo bloc en el cial se da a conocer
                         a los usuarios las acciones que realizan personas individuales y organizacion al 
                         cuidado y proteccion del medion ambiente
-                      </p>
-                      <form class="Vegetable">
-                      <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
-                      <button class="Search_btn">Buscar</button>
-                      </form>
+                      </p>                      
                       <a href="#">Conctatos</a> <a href="index.php">Mas Informacion</a>
                     </div>
                   </div>

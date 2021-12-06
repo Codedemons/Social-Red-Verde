@@ -91,10 +91,6 @@
                      </span>
                       <h1>Medioambiente</h1>                      
                       <p>Las organizaciones ambientales o ecológicas son organizaciones que buscan investigar, monitorear o proteger el medio ambiente del abuso o la degradación que implica el comportamiento humano.</p>
-                      <form class="Vegetable">
-                          <input class="Vegetable_fom" placeholder="Buscar" type="text" name=" Vegetable">
-                          <button class="Search_btn">Buscar</button>
-                      </form>
                       <a href="#">Contactos</a> <a href="https://www.gob.mx/conagua/acciones-y-programas/instituciones-que-colaboran-en-el-inh">Mas Informacion</a>
                     </div>
                   </div>
