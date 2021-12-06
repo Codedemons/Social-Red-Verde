@@ -61,10 +61,10 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li class="active"> <a href="index.php">Inicio</a> </li>
-                      <li> <a href="Menu/Retos.php">Retos</a> </li>
+                      <li> <a href="Red/index.php">Retos</a> </li>
                       <li> <a href="Menu/Mapas.php">Mapas</a> </li>
                       <li> <a href="Menu/Instituciones.php">Instituciones</a> </li>
-                      <li> <a href="Menu/Comunidad.php">Comunidad</a> </li>                                                         
+                      <li> <a href="Red/index.php">Comunidad</a> </li>                                                         
                       <li>  <a href="Menu/Login.php">Registro</a> </li> 
                      <li> <a href="#Menu"><img src="icon/icon_b.png" alt="#" /></a></li>
                      </ul>
