@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+
 * @class ProfileData
 * @brief Modelo de base de datos para la tabla de perfiles de usuarios
 **/

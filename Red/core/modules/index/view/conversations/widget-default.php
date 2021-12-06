@@ -1,4 +1,4 @@
-<?php if(!isset($_SESSION["user_id"])){ Core::redir("./");}?>
+                  <?php if(!isset($_SESSION["user_id"])){ Core::redir("./");}?>
 <?php
 $frs = ConversationData::getConversations($_SESSION["user_id"]);
 ?>
@@ -54,4 +54,4 @@ $frs = ConversationData::getConversations($_SESSION["user_id"]);
 
 
 </div>
-<br><br><br><br><br>
+<br><br><br><br><br> 

@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+
 * @class LevelData
 * @brief Modelo de base de datos para la tabla de niveles de privacidad
 **/

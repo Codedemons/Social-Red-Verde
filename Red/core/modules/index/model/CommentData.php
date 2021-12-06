@@ -1,6 +1,5 @@
 <?php
 /**
-* @author evilnapsis
 * @class CommentData
 * @brief Modelo de base de datos para la tabla de comentarios
 **/

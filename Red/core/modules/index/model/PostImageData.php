@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+
 * @class PostImageData
 * @brief Modelo de base de datos para la tabla de asociacion de posts e imagenes
 **/

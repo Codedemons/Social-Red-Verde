@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+
 * @class MessageData
 * @brief Modelo de base de datos para la tabla de mensajes
 **/

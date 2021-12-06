@@ -8,12 +8,22 @@ if(Session::exists("user_id")){
 ?>
 <html>
 <head>
-<title>SMILE :) | Red Social de Proposito General</title>
+<title>Carmen Verde</title>
 <link rel="stylesheet" type="text/css" href="res/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="res/messages.css">
 <script src="res/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="res/font-awesome/css/font-awesome.min.css">
-
+<!-- bootstrap css -->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="../css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="../css/responsive.css">  
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 
 <body>
@@ -25,18 +35,60 @@ if(Session::exists("user_id")){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="./"><i class="fa fa-smile-o"></i> SMILE</a>
+      </button>      
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-<?php if(!Session::exists("user_id")):?>
+        <?php if(!Session::exists("user_id")):?>
           <li><a href="./">INICIO</a></li>
         <?php else:?>
           <li><a href="./?view=home">INICIO</a></li>
-        <?php endif; ?>
+        <?php endif; ?>        
       </ul>
+<!--  ediciones  -->
 
+<header>
+    <!-- header inner -->
+    <div class="header-top">
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="../index.php"><img src="../images/Logo_Verde.png" alt="#" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">         
+               <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li> <a href="../index.php">Inicio</a> </li>
+                      <li> <a href="../Red/index.php">Retos</a> </li>
+                      <li > <a href="../Menu/Mapas.php">Mapas</a> </li>
+                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>
+                      <li> <a href="../Red/index.php">Comunidad</a> </li>
+                      <li>  <a href="../Menu/Login.php">Registro</a> </li>                      
+                     <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
+                     </ul>
+                   </nav>
+                 </div>
+               </div> 
+              </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- end header inner -->
+    </div>
+  </header>
+
+
+<!--  ediciones  -->
 <?php if(Session::exists("user_id")):?>
     <form class="navbar-form navbar-left" role="search">
       <div class="form-group">
@@ -149,21 +201,73 @@ $nnots = NotificationData::countUnReads($_SESSION["user_id"]);
 </div>
 </div>
 <div class="row">
-<div class="col-md-3">
-<h4>ENLACES</h4>
-<ul>
-  <li><a href="./?view=changelog">Log de Cambios</a></li>
-  <li><a href="http://evilnapsis.com">Evilnapsis HomePage</a></li>
-</ul>
+    <div class="col-md-3">
 </div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<p>Evilnapsis &copy; 2015. Todos los Derechos Reservados</p>
-</div>
-</div>
-</div>
+  </div>
+    <div class="row">
+      
+    </div>
+  </div>
 <br>
+
+  
+    <!--  footer -->
+    <footr>
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+             <a href="#" class="logo_footer"> <img src="../images/logo_verde_2.png" alt="#"/></a>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 ">
+                  <div class="address">
+                    <h3>Direcciones</h3>
+                    <ul class="loca">
+                      <li>
+                        <a href="#"></a>Comunicate con
+                        <br>Nosotros</li>
+                        <li>
+                          <a href="#"></a>(+52 9384567890) </li>
+                          <li>
+                            <a href="#"></a>CarmenVerde@SocialVerde.com</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="address">
+                          <h3>Redes Sociales</h3>
+                          <ul class="Menu_footer">
+                            <li class="active"><a href="https://twitter.com/?lang=es"><img src="../icon/Redes_Sociales/twitter.png" alt="twitter">  Twitter</a> </li>
+                            <li><a href="https://es-la.facebook.com/"><img src="../icon/Redes_Sociales/facebook.png" alt="Facebook">  Facebook</a> </li>                            
+                            <li><a href="https://www.instagram.com/?hl=es"><img src="../icon/Redes_Sociales/instagram.png" alt="Instagram">  Instagram</a> </li>
+                            <li><a href="https://www.youtube.com/"><img src="../icon/Redes_Sociales/youtube.png" alt="Youtube">  Youtube</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="address">
+                          <h3>Mas Informacion</h3>
+                          <ul class="loca">                            
+                            <li><a">  Terminos y Condiciones</a> </li>                            
+                            <li><a>  Politicas</a> </li>                            
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="copyright">
+                <div class="container">
+                  <p>Copyright © 2021 Desarrollado por <a href="https://www.unacar.mx/"> Estudiantes de la Universidad Autonoma del Carmen</a></p>
+                </div>
+              </div>
+            </div>
+          </footr>
+          <!-- end footer -->
+
 <script src="res/jquery.min.js"></script>
 <script src="res/bootstrap/js/bootstrap.min.js"></script>
 </body>

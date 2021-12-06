@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+
 * @class UserData
 * @brief Modelo de base de datos para la tabla de usuarios
 **/
