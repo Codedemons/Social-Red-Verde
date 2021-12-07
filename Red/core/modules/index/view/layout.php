@@ -27,26 +27,10 @@ if(Session::exists("user_id")){
 </head>
 
 <body>
-<header class="navbar navbar-default navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>      
-    </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <?php if(!Session::exists("user_id")):?>
-          <li><a href="./">INICIO</a></li>
-        <?php else:?>
-          <li><a href="./?view=home">INICIO</a></li>
-        <?php endif; ?>        
-      </ul>
+<header  role="banner">
 <!--  ediciones  -->
     <!-- header inner -->
+<!--  ediciones -->
     <div class="header-top">
       <div class="header">
         <div class="container-fluid">
@@ -64,13 +48,14 @@ if(Session::exists("user_id")){
                <div class="menu-area">
                 <div class="limit-box">
                   <nav class="main-menu ">
-                    <ul class="menu-area-main">
-                      <li> <a href="../index.php">Inicio</a> </li>
-                      <li> <a href="../Red/index.php">Retos</a> </li>
+                    <ul class="menu-area-main">                      
+                        <?php if(!Session::exists("user_id")):?>
+                      <li><a href="./">Inicio</a></li>
+                        <?php else:?>
+                      <li><a href="./?view=home">Inicio</a></li>
+                          <?php endif; ?>                              
                       <li > <a href="../Menu/Mapas.php">Mapas</a> </li>
-                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>
-                      <li> <a href="../Red/index.php">Comunidad</a> </li>
-                      <li>  <a href="../Menu/Login.php">Registro</a> </li>                      
+                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>                                            
                      <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>
@@ -83,9 +68,7 @@ if(Session::exists("user_id")){
      </div>
      <!-- end header inner -->
     </div>
-
-
-<!--  ediciones  -->
+     <!--  ediciones  -->
 <?php if(Session::exists("user_id")):?>
     <form class="navbar-form navbar-left" role="search">
       <div class="form-group">
@@ -182,7 +165,7 @@ $nnots = NotificationData::countUnReads($_SESSION["user_id"]);
 </ul>
 
 
-    </nav>
+    
   </div>
 </header>
 <!-- - - - - - - - - - - - - - - -->
