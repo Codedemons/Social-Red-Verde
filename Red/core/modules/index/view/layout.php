@@ -49,16 +49,27 @@ if(Session::exists("user_id")){
                 <div class="limit-box">
                   <nav class="main-menu ">
                     <ul class="menu-area-main">                      
-                        <?php if(!Session::exists("user_id")):?>
+                     
+                    <?php if(!Session::exists("user_id")):?>
                       <li><a href="./">Inicio</a></li>
                         <?php else:?>
                       <li><a href="./?view=home">Inicio</a></li>
                           <?php endif; ?>                              
                       <li > <a href="../Menu/Mapas.php">Mapas</a> </li>
-                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>                                            
-                     <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
+                      <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>                                                                 
                      </ul>
                    </nav>
+                     <?php if(Session::exists("user_id")):?>
+                      <form class="navbar-form navbar-left" role="search">
+                      <div class="form-group">
+                        <input type="hidden" name="view" value="search">
+                        <input type="text" class="form-control" name="q" placeholder="Buscar personas ...">
+                      </div>
+                      <button type="submit" class="btn btn-default">&nbsp;<i class="fa fa-search"></i>&nbsp;</button>     
+                      </form>
+                      <?php endif; ?>
+
+                     
                  </div>
                </div> 
               </div>
@@ -69,15 +80,6 @@ if(Session::exists("user_id")){
      <!-- end header inner -->
     </div>
      <!--  ediciones  -->
-<?php if(Session::exists("user_id")):?>
-    <form class="navbar-form navbar-left" role="search">
-      <div class="form-group">
-      <input type="hidden" name="view" value="search">
-        <input type="text" class="form-control" name="q" placeholder="Buscar personas ...">
-      </div>
-      <button type="submit" class="btn btn-default">&nbsp;<i class="fa fa-search"></i>&nbsp;</button>
-    </form>
-<?php endif; ?>
 
 
 <ul class="nav navbar-nav navbar-right">
