@@ -151,22 +151,20 @@ $nnots = NotificationData::countUnReads($_SESSION["user_id"]);
       <form class="navbar-form navbar-left" role="search" method="post" action="./?action=processlogin">
       <div class="form-group">
       <input type="hidden" name="r" value="search/results">
-<div class="row">
-<div class="col-md-6">
-        <input type="text"  name="email" class="form-control" placeholder="Email" required>
-</div>
-<div class="col-md-6">
-        <input type="password"  name="password" class="form-control" placeholder="Contrase&ntilde;a" required>
-</div>
-</div>
+      <div class="row">
+        <div class="col-md-6"><!-- - - - - - - - - - - - - - - 
+          <input type="text"  name="email" class="form-control" placeholder="Email" required>-->
+        </div>
+        <div class="col-md-6"><!-- - - - - - - - - - - - - - - 
+          <input type="password"  name="password" class="form-control" placeholder="Contrase&ntilde;a" required>-->
       </div>
-      <button type="submit" class="btn btn-default">Entrar</button>
+       </div>
+      </div><!-- - - - - - - - - - - - - - - 
+      <button type="submit" class="btn btn-default">Entrar</button>-->
     </form>
 </li>
 <?php endif; ?>
 </ul>
-
-
     
   </div>
 </header>

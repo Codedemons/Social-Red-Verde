@@ -1,8 +1,6 @@
 <?php
 /**
-* @author evilnapsis
-* @brief Libera la bestia, carga todo lo necesario y lo ejecuta en su momento.
-* @copyright Evilnapsis 2015
+* abre, carga todo lo necesario y lo ejecuta en su momento.
 **/
 session_start();
 include "core/autoload.php";
