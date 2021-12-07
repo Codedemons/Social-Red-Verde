@@ -29,7 +29,6 @@ $levels =LevelData::getAll();
   </select>
   </div>
 <div class="col-md-4">
-<!--  <button type="button" id="publish" class="btn btn-primary btn-block">Publicar</button>-->
   <button type="submit" id="publish" class="btn btn-primary btn-block">Publicar</button>
   </div>
 

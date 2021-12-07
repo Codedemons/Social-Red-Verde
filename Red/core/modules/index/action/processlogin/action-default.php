@@ -1,8 +1,5 @@
 <?php
-/**
-* @author evilnapsis
-* @brief Proceso de login
-**/
+
 if(!empty($_POST)){
 	if($_POST["email"]!=""&&$_POST["password"]!=""){
 		$user = UserData::getLogin($_POST["email"],sha1(md5($_POST["password"])));
@@ -11,8 +8,7 @@ if(!empty($_POST)){
 				Session::set("user_id",$user->id);
 				Core::redir("./?view=home");
 			}else{						
-				Session::set("user_id",$user->id);
-				Core::alert("Debes verificar tu correo electronico, tu uso de SMILE estara limitado.");
+				Session::set("user_id",$user->id);				
 				Core::redir("./?view=home");
 			}
 		}else{

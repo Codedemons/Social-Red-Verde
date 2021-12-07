@@ -1,8 +1,4 @@
 <?php
-/**
-* @author evilnapsis
-* @brief Descripcion
-**/
 
 if(Session::exists("user_id") && !empty($_POST)){
 

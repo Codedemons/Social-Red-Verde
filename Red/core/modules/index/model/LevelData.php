@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class LevelData
-* @brief Modelo de base de datos para la tabla de niveles de privacidad
-**/
 class LevelData {
 	public static $tablename = "level";
 
@@ -28,7 +24,6 @@ class LevelData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto LevelData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

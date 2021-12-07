@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class NotificationData
-* @brief Modelo de base de datos para la tabla de notificaciones
-**/
 class NotificationData {
 	public static $tablename = "notification";
 
@@ -29,7 +25,6 @@ class NotificationData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto NotificationData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

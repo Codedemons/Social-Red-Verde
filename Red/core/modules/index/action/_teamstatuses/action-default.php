@@ -16,9 +16,9 @@ $posts = PostData::getAllByUserIdTeamId($user->id,$team_id);
 	<div id="statuses">
 <table class="table table-bordered">
 <?php 
-/* Obtener las imagenes asociadas a un post/status */
+
 foreach($posts as $p):
-//$pis = $p->getPIS();
+
 ?>
 <tr>
 <td>
@@ -53,9 +53,6 @@ $fullpath = $pi->getImage()->getFullpath();
 if(file_exists($fullpath)):?>
 <a data-toggle="modal" href="#imgModal-<?php echo $pi->image_id;?>"><img src="<?php echo $fullpath; ?>" class="img-responsive"></a>
 
-<!-- Button trigger modal -->
-
-  <!-- Modal -->
   <div class="modal fade"  id="imgModal-<?php echo $pi->image_id;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -82,9 +79,9 @@ if(file_exists($fullpath)):?>
       <?php endif; ?>
 </p>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+      </div>
+    </div>
+  </div>
 
 
 <br><?php endif; ?>
@@ -92,10 +89,9 @@ if(file_exists($fullpath)):?>
 <?php endif; ?>
         <p >
         <?php 
-    //    $l=null;
-  //      if($from=="logged"){
+    
         $l = HeartData::getByRUT($p->id,$user->id,1);
-//        }
+
         $c = HeartData::countByRT($p->id,1)->c;
         $b = "btn-default";
         if($l!=null){ $b="btn-primary";}

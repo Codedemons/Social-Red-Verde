@@ -1,10 +1,5 @@
 <?php
 
-
-// 24 de Marzo del 2015
-// Session.php
-// @brief esto es algo mucho mas magico
-
 class Session {
 
 	public static $user= null;

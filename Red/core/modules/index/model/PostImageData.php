@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class PostImageData
-* @brief Modelo de base de datos para la tabla de asociacion de posts e imagenes
-**/
 class PostImageData {
 	public static $tablename = "post_image";
 
@@ -29,7 +25,6 @@ class PostImageData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto PostImageData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

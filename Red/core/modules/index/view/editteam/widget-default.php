@@ -26,7 +26,7 @@ $team = TeamData::getById($_GET["id"]);
     <textarea name="description"  class="form-control" placeholder="Hablanos de ti"><?php echo $team->description; ?></textarea>
   </div>
   <input type="hidden" name="team_id" value="<?php echo $team->id; ?>">
-  <button type="submit" class="btn btn-success">Actualizar Grupo</button>
+  <button type="submit" class="btn btn-success">Actualizar Comunidad</button>
 </form>
 
     </div>

@@ -1,8 +1,4 @@
 <?php
-/**
-* @author evilnapsis
-* @brief Proceso de registo, obtiene los valores post del formulario de registro y los guarda en la bd.
-**/
 
 		if(!empty($_POST)){
 			if($_POST["name"]!=""&&$_POST["lastname"]!=""&&$_POST["email"]!=""&&$_POST["password"]!=""){
@@ -35,10 +31,7 @@
 					</body>";
 	
 					mail($_POST["email"], "Registro Exitoso", $msg);
-					/* $f = fopen (ROOT."/register.txt","w");
-					fwrite($f, $msg);
-					fclose($f);
-					*/
+					
 					Core::alert("Registro Exitoso!, se ha enviado un correo electronico con los datos necesarios para activar su cuenta.");
 					Core::redir("./");
 				}else{
@@ -51,12 +44,6 @@
 				Core::redir("./");
 			}
 		}
-
-//		Core::redir("./");
-		//View::render($this,"index",array("meta"=>$meta));
-	
-
-
 
 
 

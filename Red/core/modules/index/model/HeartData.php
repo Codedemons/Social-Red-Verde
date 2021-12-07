@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class HeartData
-* @brief Modelo de base de datos para la tabla de likes
-**/
 class HeartData {
 	public static $tablename = "heart";
 
@@ -29,7 +25,6 @@ class HeartData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto HeartData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

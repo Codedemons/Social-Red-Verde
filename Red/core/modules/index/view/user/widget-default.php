@@ -50,18 +50,6 @@ function like(type,id){
 
 
 }
-/*  $("#publish").click(function(){
-    var data = $("#status").serialize();
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET","./?r=users/publish&"+data,false);
-    xhr.send();
-    $("#statuses").prepend(xhr.responseText);
-    $("#statusarea").val("");
-    $(".buttons").hide("fast");
-    $("#statusarea").prop("rows",2);
-
-  });
-*/
 </script>
 <?php else:?>
 <div class="container">

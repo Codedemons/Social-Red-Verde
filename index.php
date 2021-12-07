@@ -64,8 +64,7 @@
                       <li> <a href="Red/index.php">Retos</a> </li>
                       <li> <a href="Menu/Mapas.php">Mapas</a> </li>
                       <li> <a href="Menu/Instituciones.php">Instituciones</a> </li>
-                      <li> <a href="Red/index.php">Comunidad</a> </li>                                                         
-                      <li>  <a href="Menu/Login.php">Registro</a> </li> 
+                      <li> <a href="Red/index.php">Comunidad</a> </li>                                                                               
                      <li> <a href="#Menu"><img src="icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>

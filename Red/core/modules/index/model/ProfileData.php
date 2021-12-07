@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class ProfileData
-* @brief Modelo de base de datos para la tabla de perfiles de usuarios
-**/
 class ProfileData {
 	public static $tablename = "profile";
 
@@ -33,7 +29,6 @@ class ProfileData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto ProfileData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set nick=\"$this->nick\",name=\"$this->name\",mail=\"$this->mail\",image=\"$this->image\",password=\"$this->password\",status_id=".$this->status->id.",usertype_id=".$this->usertype->id.",is_admin=$this->is_admin,is_verified=$this->is_verified,created_at=$this->created_at where id=$this->id";
 		Executor::doit($sql);

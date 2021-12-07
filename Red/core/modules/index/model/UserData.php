@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class UserData
-* @brief Modelo de base de datos para la tabla de usuarios
-**/
 class UserData {
 	public static $tablename = "user";
 
@@ -33,7 +29,6 @@ class UserData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto UserData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set username=\"$this->username\",name=\"$this->name\",lastname=\"$this->lastname\",email=\"$this->email\",is_active=\"$this->is_active\" where id=$this->id";
 		Executor::doit($sql);

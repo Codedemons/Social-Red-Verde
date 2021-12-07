@@ -30,7 +30,6 @@ class PostData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto PostData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set title=\"$this->title\",content=\"$this->content\",image=\"$this->image\",is_public=\"$this->is_public\" where id=$this->id";
 		Executor::doit($sql);

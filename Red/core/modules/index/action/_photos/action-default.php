@@ -16,9 +16,7 @@ $posts = ImageData::getAllByUserId($user->id);
 	<div id="statuses">
 <table class="table table-bordered">
 <?php 
-/* Obtener las imagenes asociadas a un post/status */
 foreach($posts as $p):
-//$ps = $p->getPIS();
 ?>
 <tr>
 <td>
@@ -38,7 +36,6 @@ if($pf->image!=""):?>
 $fullpath = $p->getFullpath();
 if(file_exists($fullpath)):?>
 <img src="<?php echo $fullpath; ?>" class="img-responsive">
-
 <br>
 <?php endif; ?>
         <p>

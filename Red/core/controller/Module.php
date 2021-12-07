@@ -1,10 +1,5 @@
 <?php
 
-
-// 13 de Abril del 2014
-// Module.php
-// @brief tareas que se realizan con modulos.
-
 class Module {
 	public static $module;
 	public static $view;
@@ -18,7 +13,7 @@ class Module {
 		include "core/modules/".Module::$module."/view/layout.php";
 	}
 
-	// validacion del modulo
+	
 	public static function isValid(){
 		$valid = false;
 		$folder = "core/modules/".Module::$module;

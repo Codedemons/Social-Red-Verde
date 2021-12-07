@@ -1,8 +1,5 @@
 <?php
-/**
-* @author evilnapsis
-* @brief Agregar likes apartir del id y tipo de referencia con el usuario logeado.
-**/
+
 if(Session::exists("user_id") && !empty($_POST)){
 	if($_POST["content"]!=""){
 	$h = new CommentData();
@@ -25,13 +22,13 @@ if(Session::exists("user_id") && !empty($_POST)){
 		$author_id = $post->user_id;
 	}
 
-	if($author_id!=$_SESSION["user_id"] && $user_id!=$_SESSION["user_id"]){ // si es el mismo autor del post, entonces no le notificamos
+	if($author_id!=$_SESSION["user_id"] && $user_id!=$_SESSION["user_id"]){ 
 		$notification = new NotificationData();
-		$notification->not_type_id=2; // comment
-		$notification->type_id = $_POST["t"]; // al mismo que nos referenciamos en al crear el comentario
-		$notification->ref_id = $_POST["r"]; // =
-		$notification->receptor_id = $user_id; // en este caso nos referimos a quien va dirigida la notificacion
-		$notification->sender_id = $_SESSION["user_id"]; // ahora al usuario implicado
+		$notification->not_type_id=2; 
+		$notification->type_id = $_POST["t"]; 
+		$notification->ref_id = $_POST["r"]; 
+		$notification->receptor_id = $user_id;
+		$notification->sender_id = $_SESSION["user_id"]; 
 		$notification->add();
 	}
 

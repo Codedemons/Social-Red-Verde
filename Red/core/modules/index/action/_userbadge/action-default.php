@@ -20,7 +20,7 @@ else{ $gotourl= "./?view=user&id=".$user->id; }
 <div class="col-md-8">
 <h5><a href="<?php echo $gotourl; ?>"><?php echo $user->getFullname(); ?></a></h5>
 <?php if($from=="logout"):?>
-<!-- NO se muestra ningun boton -->
+
 <?php else:?>
 <?php if($user->id==Session::$user->id):?>
 <a href="./?view=editinformation" class="btn btn-default btn-xs">Editar Informacion</a>

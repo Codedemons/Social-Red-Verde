@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class TeamData
-* @brief Modelo de base de datos para la tabla de grupos
-**/
 class TeamData {
 	public static $tablename = "team";
 
@@ -29,7 +25,6 @@ class TeamData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto TeamData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set image=\"$this->image\",title=\"$this->title\",description=\"$this->description\" where id=$this->id";
 		Executor::doit($sql);

@@ -63,8 +63,7 @@
                       <li> <a href="../Red/index.php">Retos</a> </li>
                       <li > <a href="../Menu/Mapas.php">Mapas</a> </li>
                       <li class="active"> <a href="../Menu/Instituciones.php">Instituciones</a> </li>
-                      <li> <a href="../Red/index.php">Comunidad</a> </li>
-                      <li>  <a href="../Menu/Login.php">Registro</a> </li>                      
+                      <li> <a href="../Red/index.php">Comunidad</a> </li>                      
                      <li> <a href="#Menu"><img src="../icon/icon_b.png" alt="#" /></a></li>
                      </ul>
                    </nav>
@@ -87,7 +86,7 @@
                 <div class="row">
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div class="text-bg">
-                     <span>Instituciones que cuidan el                         
+                     <span>Instituciones para  el                         
                      </span>
                       <h1>Medioambiente</h1>                      
                       <p>Las organizaciones ambientales o ecológicas son organizaciones que buscan investigar, monitorear o proteger el medio ambiente del abuso o la degradación que implica el comportamiento humano.</p>

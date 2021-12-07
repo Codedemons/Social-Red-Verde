@@ -1,8 +1,5 @@
 <?php
-/**
-* @author evilnapsis
-* @brief Algoritmo para cambiar la contrase~a
-**/
+
 if(isset($_SESSION["user_id"]) && !empty($_POST)){
 	$user = UserData::getById($_SESSION["user_id"]);
 

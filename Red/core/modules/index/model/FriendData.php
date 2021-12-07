@@ -1,9 +1,4 @@
 <?php
-/**
-
-* @class FriendData
-* @brief Modelo de base de datos para la tabla de amigos
-**/
 class FriendData {
 	public static $tablename = "friend";
 
@@ -31,7 +26,6 @@ class FriendData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto FriendData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

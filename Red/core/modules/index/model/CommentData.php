@@ -1,8 +1,5 @@
 <?php
-/**
-* @class CommentData
-* @brief Modelo de base de datos para la tabla de comentarios
-**/
+
 class CommentData {
 	public static $tablename = "comment";
 
@@ -28,7 +25,7 @@ class CommentData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto CommentData previamente utilizamos el contexto
+
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);

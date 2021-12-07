@@ -1,9 +1,5 @@
 <?php
-/**
 
-* @class SentimentalData
-* @brief Modelo de base de datos para la tabla de estados sentimentales
-**/
 class SentimentalData {
 	public static $tablename = "sentimental";
 
@@ -28,7 +24,6 @@ class SentimentalData {
 		Executor::doit($sql);
 	}
 
-// partiendo de que ya tenemos creado un objecto SentimentalData previamente utilizamos el contexto
 	public function update(){
 		$sql = "update ".self::$tablename." set name=\"$this->name\" where id=$this->id";
 		Executor::doit($sql);
