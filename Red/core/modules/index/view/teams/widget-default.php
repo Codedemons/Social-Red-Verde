@@ -9,24 +9,24 @@ $frs = TeamData::getAllByUserId($_SESSION["user_id"]);
 <?php Action::execute("_mainmenu",array());?>
     </div>
     <div class="col-md-7">
-    <h2>Grupos</h2>
+    <h2>Comunidad</h2>
 
-<h4>Nuevo Grupo</h4>
+<h4>Nuevo Comunidad</h4>
 <form role="form" method="post" action="./?action=addteam">
   <div class="form-group">
-    <label for="exampleInputEmail1">Titulo del grupo</label>
-    <input type="text" value="" name="title" class="form-control" required placeholder="Titulo del Grupo">
+    <label for="exampleInputEmail1">Titulo del Comunidad</label>
+    <input type="text" value="" name="title" class="form-control" required placeholder="Titulo del Comunidad">
   </div>
     <button type="submit" class="btn btn-primary">Agregar</button>
 </form>
 
 
     <?php if(count($frs)>0):?>
-      <h4>Grupos creados por mi</h4>
+      <h4>Comunidad creados por mi</h4>
       <table class="table table-bordered">
       <thead>
         <th></th>
-        <th>Grupo</th>
+        <th>Comunidad</th>
       </thead>
       <?php foreach($frs as $fr):?>
         <tr>
@@ -44,7 +44,7 @@ $frs = TeamData::getAllByUserId($_SESSION["user_id"]);
       </table>
     <?php else:?>
       <div class="jumbotron">
-      <h2>No hay Grupos</h2>
+      <h2>No hay Comunidad</h2>
       </div>
     <?php endif;?>
     </div>

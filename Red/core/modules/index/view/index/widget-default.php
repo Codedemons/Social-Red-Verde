@@ -18,27 +18,8 @@
 <br>
 <br>
 
-
-<li>
-      <form class="navbar-form navbar-left" role="search" method="post" action="./?action=processlogin">
-      <div class="form-group">
-      <input type="hidden" name="r" value="search/results">
-      <div class="row">
-        <div class="col-md-6">
-          <input type="text"  name="email" class="form-control" placeholder="Email" required>
-        </div>
-        <div class="col-md-6">
-          <input type="password"  name="password" class="form-control" placeholder="Contrase&ntilde;a" required>
-      </div>
-       </div>
-      </div>
-      <button type="submit" class="btn btn-default">Entrar</button>
-    </form>
-</li>
-<br>
-<br>
-<br>
 <h2> Carmen Verde</h2>
+<br>
 <article class="s-shadow-bottom">
     <!--Contenedor de la imagen-->
     <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
@@ -59,7 +40,6 @@
 </article>
 
 
-
 <!-- --->
 
 <!-- -->
@@ -67,6 +47,35 @@
 <div class="col-md-4">
 <br>
   <div class="panel panel-default">
+	  	<div class="panel-heading">
+		  Inicio de Seccion
+		  </div>
+
+		<div class="panel-body">		    
+        <form class="form" role="search" method="post" action="./?action=processlogin">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo electronico</label>    
+    <input type="text"  name="email" class="form-control" placeholder="Email" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>    
+    <input type="password"  name="password" class="form-control" placeholder="Contrase&ntilde;a" required>
+  </div>  
+  <button type="submit" class="btn  btn-block btn-default">Entrar</button>
+</form>
+
+
+<!-- segundo-->
+
+
+
+
+
+		</div>
+    
+		</div>
+
+    <div class="panel panel-default">
 	  	<div class="panel-heading">
 		  Registro Gratis por Siempre!
 		  </div>
@@ -100,8 +109,8 @@
   </div>
   <button type="submit" class="btn btn-block btn-default">Registrar</button>
 </form>
-		</div>
-		</div>
+</div>
+</div>
 </div>
 </div>
 </div>
