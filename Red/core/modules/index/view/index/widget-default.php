@@ -18,30 +18,6 @@
 <br>
 <br>
 
-<h2> Carmen Verde</h2>
-<p>SMILE es un sistema de red social de proposito general, codigo abierto y gratis.</p>
-<img src="../images/img2.png">
-<h3>Descripcion</h3>
-<p>SMILE es un sistema de red social en el que puedes rellenar tu perfil, hacer publicaciones de texto y/o imagenes, buscar amigos, enviar, recibir y aceptar solicitudes de amistad, enviar mensajes a amigos, comentar y/o dar likes a las publicaciones, recibir notificaciones y mucho mas.</p>
-
-<h3>Dedicatoria</h3>
-<p>Este sistema se lo dedico a mis padres(Agustin Ramos de la Cruz y Maria de Lourdes Escalante Mendez) por que desde que empece en el mundo de las computadoras ellos me dieron su apoyo emocional y economico, me compraron computadoras, me pagaron mis estudios universitarios, estoy muy agradecido con ellos, los amo.</p>
-
-<h3>Modulos</h3>
-<p>Defino a grandes rasgos los modulos generales del sistema</p>
-
-<ul>
-<li><b>Usuarios</b>: Se pueden registrar para acceder a sus cuentas y asi empezar la aventura smile.</li>
-<li><b>Publicaciones</b>: Cada usuario puede publicar lo que quiera y lo visualizara en su muro, el cual podran ver tambien sus amigos.</li>
-<li><b>Perfiles</b>: Los usuarios pueden rellenar su perfil, escribir sobre ellos, que les gusta y que no, sus amigos pueden ver esta informacion.</li>
-<li><b>Likes</b>: Los usuarios pueden darle likes a las publicaciones y/o imagenes de sus amigos.</li>
-<li><b>Comentarios</b>: Los usuarios pueden escribir comentarios a las publicaciones y/o imagenes de sus amigos.</li>
-<li><b>Imagenes</b>: Poder subir imagenes, poner imagen de perfil.</li>
-<li><b>Amigos</b>: Puedes buscar personas, enviarles solicitud de amistad, esperar a que te acepten o tu puedes recibir solicitudes y aceptarlas.</li>
-<li><b>Mensajes</b>: Puedes enviar mensajes a tus amigos y tener conversaciones.</li>
-<li><b>Notificaciones</b>: recibe notificaciones cuando tus amigos dan like o comentan tus publicaciones y/o imagenes.</li>
-</ul>
-
 
 <li>
       <form class="navbar-form navbar-left" role="search" method="post" action="./?action=processlogin">
@@ -59,6 +35,30 @@
       <button type="submit" class="btn btn-default">Entrar</button>
     </form>
 </li>
+<br>
+<br>
+<br>
+<h2> Carmen Verde</h2>
+<article class="s-shadow-bottom">
+    <!--Contenedor de la imagen-->
+    <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
+        <img src="../images/isla1.jpg">
+    </div>
+    <!--Contenido-->
+    <div class="s-bg-white s-pxy-2">
+        <h3>Como cada año la meta se alcanzo</h3>
+        <p class="s-mb-0">Gran exito campaña de reciclaje 2021</p>
+    </div>
+    <footer class="s-cross-center s-bg-grey s-pxy-2 s-radius-br s-radius-bl">
+        <!--Define el ancho máximo de la imagen-->
+        <div class="s-10 s-mr-1">
+        <!--Profesor-->
+        </div>
+        <p class="s-mb-0">Con ayuda de voluntarios y jovenes estudiantes de la UNACAR que como cada año apoya a esta gran causa, como lo es mantener la isla libre de basura electronica que contamina el agua, un año mas se ah logrado la meta que es llenar un trailer con desechos electronicos, pero este año ah hecho falta otro camión incluso pues llegado el final de la jornada no todo entraba en el trailer</p>
+    </footer>
+</article>
+
+
 
 <!-- --->
 
