@@ -126,29 +126,6 @@
 
 
 
-<!-- about  -->
-<div id="about" class="about">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
-          <h2>About us</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many</p>
-          <a href="Javascript:void(0)">Read more</a>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_rl">
-        <div class="about-box_img">
-          <figure><img src="images/about.jpg" alt="#" /></figure>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-<!-- end abouts -->
-
-
 
 <!-- vegetable -->
 <div id="vegetable" class="vegetable">
@@ -156,26 +133,31 @@
     <div class="row">
       <div class="col-md-12">
         <div  class="titlepage">
-          <h2> Fresh <strong class="llow">vegetable</strong> </h2>
+          <h2> Retos <strong class="llow">Vilares</strong> </h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 ">
         <div class="vegetable_shop">
-          <h3>Best Vegetables Shop</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages andIt is a long established fact that a reader will be distracted </p>
+          <h3>Trashtag Challenge</h3>
+          <p>
+          Se trata de una acción sencilla: recoger la basura que otros tiran.
+           Playas y montañas de todo el mundo acumulan restos que las personas desechan sin 
+           tener en cuenta el medio ambiente, pero ahora un reto surgido en Internet que se está
+            viralizando busca poner remedio a este problema. 
+          </p>
         </div>
       </div>
        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 ">
         <div class="vegetable_img">
-         <figure><img src="images/v1.jpg" alt="#"/></figure>
+         <figure><img src="images/retos.jpg" alt="#"/></figure>
          <span>01</span>
         </div>
       </div>
        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 ">
         <div class="vegetable_img margin_top">
-         <figure><img src="images/v2.jpg" alt="#"/></figure>
+         <figure><img src="images/retos_2.jpg" alt="#"/></figure>
          <span>02</span>
         </div>
       </div>
@@ -183,123 +165,8 @@
   </div>
 </div>
 <!-- end vegetable -->
-
-
-
-
-   <!-- clients -->
-    <div id="testimonial" class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>testimonial</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clients_red">
-        <div class="container">
-            <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#testimonial_slider" data-slide-to="0" class=""></li>
-                    <li data-target="#testimonial_slider" data-slide-to="1" class="active"></li>
-                    <li data-target="#testimonial_slider" data-slide-to="2" class=""></li>
-                </ul>
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <div class="testomonial_section">
-
-                            <div class="full testimonial_cont">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                        <div class="testomonial_img">
-                                            <figure><img src="images/tes.jpg" alt="#"/></figure>
-                                            <i><img src="images/test_con.png" alt="#"/></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
-                                          
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item active">
-
-                        <div class="testomonial_section">
-                            <div class="full center">
-                            </div>
-                            <div class="full testimonial_cont ">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                        <div class="testomonial_img">
-                                            <figure><img src="images/tes.jpg" alt="#"/></figure>
-                                            <i><img src="images/test_con.png" alt="#"/></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
-                                              
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="carousel-item">
-
-                        <div id="testomonial" class="testomonial_section">
-                            <div class="full center">
-                            </div>
-                            <div class="full testimonial_cont ">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 pa_right">
-                                        <div class="testomonial_img">
-                                            <figure><img src="images/tes.jpg" alt="#"/></figure>
-                                            <i><img src="images/test_con.png" alt="#"/></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Jomono<br><strong class="ornage_color">review</strong></h3>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and
-                                              
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-  
-    <!-- end clients -->
-
-
-
+<br>
+<br>
 
 <!-- contact -->
 <div id="contact" class="contact">
@@ -307,7 +174,7 @@
    <div class="row">
      <div class="col-md-12">
                 <div class="titlepage">
-                  <h2>Comunicate  <strong class="llow">Aqui</strong></h2>
+                  <h2>Comunicate y Contactanos <strong class="llow">Aqui</strong></h2>
                 </div>
    </div>
 
@@ -333,7 +200,7 @@
                   <textarea class="textarea" placeholder="Mensaje" type="text" name="Message"></textarea>
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <button class="send">Send</button>
+                  <button class="send">Enviar</button>
                 </div>
               </div>
             </form>
@@ -352,6 +219,46 @@
 </div>
 </div>
     <!-- end contact -->
+
+
+
+<!-- about 1  -->
+
+<div id="about" class="about">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <h2>PNUMA</h2>
+          <p>
+          Es el portavoz del medio ambiente dentro del sistema de las Naciones Unidas.
+          El PNUMA actúa como catalizador, promotor, educador y facilitador para promover el uso racional 
+          y el desarrollo sostenible del medio ambiente mundial.
+          <br>
+          <br>
+          La labor del PNUMA abarca evaluar las condiciones y las tendencias ambientales a nivel mundial, 
+          regional y nacional; elaborar instrumentos ambientales internacionales y nacionales; y fortalecer 
+          las instituciones para la gestión racional del medio ambiente. El PNUMA tiene una larga historia de 
+          contribuir al desarrollo y la aplicación del derecho del medio ambiente a través de su labor
+          normativa o mediante la facilitación de plataformas intergubernamentales para la elaboración de 
+          acuerdos principios y directrices multilaterales sobre el medio ambiente, que tienen por objeto 
+          hacer frente a los problemas ambientales mundiales.  
+        </p>
+          <a href="Menu/Instituciones.php">Mas Informacion</a>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_rl">
+        <div class="about-box_img">
+          <figure><a href="https://www.unep.org/"><img src="images/Instituciones/pnuma.png" alt="#"/></a></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end abouts -->
+
+
+
 
     <!--  footer -->
     <footr>
